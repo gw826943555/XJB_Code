@@ -7,9 +7,10 @@ int main()
 {
     string s;
 
-    getline(cin, s);
-
-    cout << s << endl;
+    while(getline(cin, s))
+    {
+        cout << s << endl;
+    }
 
     return 0;
 }
